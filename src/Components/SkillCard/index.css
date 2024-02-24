@@ -1,0 +1,40 @@
+@keyframes skill-card-animation {
+    0% {background-color: rgb(209, 253, 209)}
+    50% {background-color: rgb(195, 252, 252)}
+    100% {background-color: rgb(209, 253, 209)}
+}
+.skill-card{
+    display: flex;
+    margin-top: 16px;
+    animation-name: skill-card-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    border-radius: 16px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.skill-icon{
+    width: 50px;
+    height: 50px;
+}
+.skill-info{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skill-title{
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skill-rating{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.star{
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+}

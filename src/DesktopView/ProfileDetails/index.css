@@ -1,0 +1,84 @@
+.profile{
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 16px;
+}
+.image-background{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.profile-details{
+    flex: 1;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+.profile-name{
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@keyframes profession-filling {
+    0% {opacity: 0; -webkit-text-fill-color: transparent; -webkit-text-stroke: thin rgb(4, 177, 177);}
+    10% {opacity: 1; -webkit-text-fill-color: transparent; -webkit-text-stroke: thin rgb(4, 177, 177);}
+    25% {opacity: 1; -webkit-text-fill-color: rgb(4, 177, 177);}
+    75% {opacity: 1; -webkit-text-fill-color: rgb(4, 177, 177);}
+    90% {opacity: 1; -webkit-text-fill-color: transparent; -webkit-text-stroke: thin rgb(4, 177, 177);}
+    100% {opacity: 0; -webkit-text-fill-color: transparent;}
+}
+.profession{
+    font-size: x-large;
+    font-weight: 900;
+    letter-spacing: 1px;
+    opacity: 0;
+    animation-name: profession-filling;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    padding: 12px 0px;
+}
+.contact-icon{
+    width: 30px;
+    height: 30px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+.download-cv-button{
+    position: relative;
+    margin-top: auto;
+    padding: 12px 24px 12px 24px;
+    border-radius: 24px;
+    background-color: aqua;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+}
+.download-cv-button:hover{
+    background-color: rgb(173, 244, 173);
+}

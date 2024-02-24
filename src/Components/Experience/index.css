@@ -1,0 +1,80 @@
+.experience{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+@keyframes experience-animation{
+    0% {height: 0;}
+    100% {height: 50%}
+}
+.experience-body{
+    margin: 24px 0px 0px 12px;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    overflow: hidden;
+    animation: experience-animation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+.timeline{
+    color: green;
+    font-weight: 700;
+    height: 100%;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+}
+.timeline-years{
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.year{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+.timeline-indicator{
+    width: 3px;
+    height: 90%;
+    background-color: green;
+    margin-left: -8px;
+    margin-top: 6px;
+}
+.experience-details{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.role{
+    font-size: 24px;
+    margin-left: 16px;
+}
+.company{
+    font-size: 16px;
+    margin: 8px 0px 8px 16px;
+}
+.role-highlights{
+    font-size: 16px;
+    margin-left: -16px;
+    margin-top: 0px;
+}
+.highlight-point{
+    margin: 12px;
+}

@@ -1,0 +1,27 @@
+.information{
+    height: 500px;
+    width: 600px;
+    background-color: whitesmoke;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    box-sizing: border-box;
+    border-left: 1px solid black;
+    overflow-y: scroll;
+}
+.information-heading{
+    text-decoration:double underline aqua;
+    font-size: larger;
+    font-weight: 500;
+}
+.information-wrapper{
+    background-color: rgb(236, 233, 233);
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
