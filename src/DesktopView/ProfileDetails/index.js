@@ -12,7 +12,7 @@ function ProfileDetails() {
             setCurrentProfession((currentProfessionPrev) => (currentProfessionPrev + 1) % (professions?.length))
         }, 6000)
         return () => clearInterval(interval)
-    }, [])
+    })
     const openPhoneNumberModal = () => {
         setIsPhoneNumberModalOpen(() => true)
     }
